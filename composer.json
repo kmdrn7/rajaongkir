@@ -1,0 +1,23 @@
+{
+    "name": "kmdrn7/rajaongkir",
+    "description": "API wrapper Raja Ongkir untuk Laravel 5",
+    "keywords": [
+        "rajaongkir", "application programming interface", "api", "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Andika Ahmad Ramadhan",
+            "email": "aspendaka@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"kmdrn7\\rajaongkir\\": "src/"
+    	}
+    },
+    "require": {
+    	"illuminate/support": "~5"
+    }
+}
